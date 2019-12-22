@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans;
+    background-image: url("../images/stars.gif");
+    color: white;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+marquee {
+    width: 300px;
+    background-color: fuchsia;
+    display: block;
+    margin: auto;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+div {
+    width: 500px;
+    margin: auto;
+    background-color: yellow;
+    color: black;
+    margin-bottom: 50px;
+}
+
+table {
+    color: black;
+    width: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+* {
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1157.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1157.png), auto !important;
+}
+
+* a:hover {
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1156.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1156.png), auto !important;
+}
