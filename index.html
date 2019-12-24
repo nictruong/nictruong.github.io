@@ -2,6 +2,19 @@
     <head>
         <title>Gnourt Salocin</title>
         <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script type="text/javascript">
+            function openCaptcha() {
+                var answer = prompt(`Solve the following captcha:\n
+(153 + 672) * 34 = `);
+                if (answer === '28050') {
+                    console.log('I bet you used a calculator...');
+                    document.getElementById("construction").innerHTML = '<img src="images/construction.gif">';
+                } else {
+                    console.log('just use a calculator...');
+                    alert('No. Try again.')
+                }
+            }
+        </script>
     </head>
     <body>
         <header class="header">
@@ -16,6 +29,7 @@
         </div>
         <img src="images/5zqaNMSu.gif" alt>
         <div>
+
             <table>
                 <thead>
                     <tr>
@@ -52,6 +66,12 @@
                     </tr>
                 </tbody>
             </table>
+        </div>
+        <div>
+            Click on button below to see more info!
+            <br>
+            <button onclick="openCaptcha()">open</button>
+            <div id="construction"></div>
         </div>
         <div>
             <a href="https://www.linkedin.com/in/nicolastruong/">LinkedIn</a>

@@ -3,6 +3,7 @@ body {
     font-family: Comic Sans MS, Comic Sans;
     background-image: url("../images/stars.gif");
     color: white;
+    overflow-x: hidden;
 }
 
 img {
@@ -26,7 +27,7 @@ div {
     margin: auto;
     background-color: yellow;
     color: black;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 table {
