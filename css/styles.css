@@ -41,6 +41,13 @@ footer {
     width: 100%;
 }
 
+#wow {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    width: 300px;
+}
+
 * {
     cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1157.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1157.png), auto !important;
 }
